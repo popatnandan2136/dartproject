@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/dartproject.iml" filepath="$PROJECT_DIR$/dartproject.iml" />
+      <module fileurl="file://$PROJECT_DIR$/darttask.iml" filepath="$PROJECT_DIR$/darttask.iml" />
     </modules>
   </component>
 </project>
