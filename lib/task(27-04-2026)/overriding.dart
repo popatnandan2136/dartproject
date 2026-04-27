@@ -16,9 +16,9 @@ class NotFlyingBirds extends Bird{
 void main(){
   Bird b;
   b = Bird();
-  print(b.details_display());
+  b.details_display();
   b = FlyingBirds();
-  print(b.details_display());
+  b.details_display();
   b = NotFlyingBirds();
-  print(b.details_display());
+  b.details_display();
 }
