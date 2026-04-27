@@ -7,7 +7,7 @@ class Student{
   var phoneNumber;
   var city;
 
-  displayStudent(){
+  displayStudent(id,name,email,phoneNumber,city){
     print("Student Id Is: $id");
     print("Student Name Is: $name");
     print("Student Email Is: $email");
@@ -27,7 +27,7 @@ class Student{
     stdout.write("Enter Student City: ");
     city = stdin.readLineSync().toString();
 
-    displayStudent();
+    displayStudent(this.id,this.name,this.email,this.phoneNumber,this.city);
   }
 }
 
@@ -38,5 +38,5 @@ void main(){
 
   s1.addNewStudent();
 
-  // s2.displayStudent("10", "Nandan", "n@gmail.com", "7048470585", "Rajkot");
+  s2.displayStudent("10", "Nandan", "n@gmail.com", "7048470585", "Rajkot");
 }
